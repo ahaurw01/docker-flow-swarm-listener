@@ -1,5 +1,5 @@
-FROM alpine:3.4
-MAINTAINER 	Viktor Farcic <viktor@farcic.com>
+FROM armhf/alpine:3.4
+MAINTAINER Aaron Haurwitz <aaron.haurwitz@gmail.com>
 
 ENV DF_DOCKER_HOST="unix:///var/run/docker.sock" \
     DF_NOTIFICATION_URL="" \
